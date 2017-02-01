@@ -1,0 +1,19 @@
+{
+  "name": "javascript-playground",
+  "version": "1.0.0",
+  "description": "playground repo for javascript related stuffs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhuwang/javascript-playground.git"
+  },
+  "author": "Bhuwan Gautam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhuwang/javascript-playground/issues"
+  },
+  "homepage": "https://github.com/bhuwang/javascript-playground#readme"
+}

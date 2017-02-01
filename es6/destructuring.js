@@ -12,7 +12,8 @@ var {color, position} = {
 	state: "NY",
 	position:"Forward"
 }
-console.log(color);
+// log the two values in a single stmt.
+console.log(color, position);
 console.log(position);
 
 //#3
@@ -39,3 +40,11 @@ console.log(location);
 var [first,,,,fifth] = ["red","yellow","green","black","orange"];
 console.log(first);
 console.log(fifth);
+
+//#6
+//#5
+// if you want first and second separately and rest in one
+var [first,second,...remaining] = ["red","yellow","green","black","orange"];
+console.log(first);
+console.log(second);
+console.log(remaining);
